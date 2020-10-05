@@ -1,0 +1,9 @@
+[
+  { "title": "Eat out", "budget": 25 },
+  { "title": "Rent", "budget": 375 },
+  { "title": "Groceries", "budget": 110 },
+  { "title": "Phone", "budget": 120 },
+  { "title": "Gas", "budget": 60 },
+  { "title": "Netflix", "budget": 15 },
+  { "title": "Video Games", "budget": 95 }
+]
