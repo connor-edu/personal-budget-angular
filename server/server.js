@@ -1,11 +1,14 @@
 const path = require("path");
 const fs = require("fs").promises;
 const express = require("express");
+const cors = require("cors");
 
 const app = express();
 const port = 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
+
+app.use(cors());
 
 app.get("/hello", (req, res) => {
   return res.send("Hello World!");

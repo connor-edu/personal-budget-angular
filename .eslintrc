@@ -1,5 +1,8 @@
 {
-  "extends": "a1motion",
+  "extends": "a1motion/typescript",
+  "parserOptions": {
+    "createDefaultProgram": true
+  },
   "rules": {
     "prettier/prettier": ["error", {
       "trailingComma": "es5",
@@ -7,7 +10,8 @@
       "semi": true,
       "jsxBracketSameLine": true,
       "arrowParens": "always",
-      "endOfLine": "lf"
+      "endOfLine": "lf",
+      "singleQuote": false
     }]
   }
 }

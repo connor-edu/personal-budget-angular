@@ -1,0 +1,15 @@
+{
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/connor-edu/personal-budget.git",
+  "author": "Connor Love <connor@dotconnor.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
